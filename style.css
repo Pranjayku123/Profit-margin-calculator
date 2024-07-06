@@ -36,6 +36,16 @@ body {
     background-color: #073b4c;
     color: #fff;
 }
+.resultCount{
+    border: 1px solid #ddd;
+    background: #2c2c2c;
+    color: #ffffff;
+    padding: 10px;
+    width: 85%;
+    margin: 5px auto;
+    border-radius: 6px;
+    border-top: 4px solid #ffc107;
+}
 
 form {
     display: flex;
@@ -93,8 +103,23 @@ button:hover {
 
 .result span {
     display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
+.headingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+} 
+.headingTitle p{
+    text-decoration: underline;
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+.headingTitle h4{
     font-size: 24px;
-    font-weight: bold;
 }
 
 @media (max-width: 768px) {

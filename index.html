@@ -9,6 +9,11 @@
 <body>
     <div class="container">
         <div class="calculator">
+          <div class="headingTitle">
+            <h4>Mortgage Calculator</h4>
+            <p>Clear All</p>
+          </div>
+          <hr>
             <form id="mortgage-form">
                 <div class="form-group">
                     <label for="amount">Mortgage Amount</label>
@@ -36,13 +41,17 @@
         </div>
         <div class="results">
             <h2>Your results</h2>
-            <div class="result">
+            <p>Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again. Your monthly repayments Total you'll repay over the term.</p>
+            <div class="resultCount">
+              <div class="result">
                 <p>Your monthly repayments</p>
-                <span id="monthlyRepayments">£0.00</span>
-            </div>
+                <span id="monthlyRepayments" style="color: yellowgreen; font-size: 30px;">£0.00</span>
+              </div>
+              <hr style="margin: 25px auto;">
             <div class="result">
                 <p>Total you'll repay over the term</p>
                 <span id="totalRepayments">£0.00</span>
+            </div>
             </div>
         </div>
     </div>
